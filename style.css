@@ -21,9 +21,16 @@
     display: flex;
     width: 100%;
 }
+.NavSup2 a {
+    text-decoration: none;
+}
+.NavSup3 a {
+    text-decoration: none;
+}
 .NavSuperiorIconoFravega{
     display: flex;
     width: 100%;
+    margin-right: 10px;
     justify-content: flex-end;
 }
 .NavSup2 li{
@@ -43,4 +50,25 @@
 .NavSup2 a{
     margin-right: 10px;
     margin-left: 10px;
+}
+.NavSup3 li {
+    display: flex;
+    width: 100%;
+}
+.NavSup3 li div a{
+    margin-top: 19px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.NavSup3 li .ernavPrimeros {
+    display: flex;
+}
+.NavSup3 li .ernavPrimeros .boton-violeta{
+    color: purple;
+}
+.NavSup3 .donavSegundos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    width: 100%;
 }
