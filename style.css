@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.NavegacionSuperior {
+    background-color: grey;
+    color: rgb(62, 62, 62);
+    text-decoration: none;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+.NavegacionSuperior a {
+    background-color: grey;
+    color: rgb(62, 62, 62);
+    text-decoration: none;
+    margin-left: 10px;
+}
+.NavegacionSuperior li {
+    display: flex;
+    width: 100%;
+}
+.NavSuperiorIconoFravega{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.NavSup2 li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.NavSup2 .Primeros{
+    display: flex;
+    flex-direction: column;
+}
+.NavSup2 .Buscador{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.NavSup2 a{
+    margin-right: 10px;
+    margin-left: 10px;
+}
