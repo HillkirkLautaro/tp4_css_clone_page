@@ -10,16 +10,19 @@
     display:flex;
     flex-direction: row;
     width: 100%;
+    
 }
 .NavegacionSuperior a {
     background-color: grey;
     color: rgb(62, 62, 62);
     text-decoration: none;
     margin-left: 10px;
+    font-size: smaller;
 }
 .NavegacionSuperior li {
     display: flex;
     width: 100%;
+    padding: 0 100px;
 }
 .NavSup2 a {
     text-decoration: none;
@@ -31,12 +34,14 @@
     display: flex;
     width: 100%;
     margin-right: 10px;
-    justify-content: flex-end;
+    justify-content: right;
+    flex-wrap: wrap;
 }
 .NavSup2 li{
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 0 100px;
 }
 .NavSup2 .Primeros{
     display: flex;
@@ -50,15 +55,22 @@
 .NavSup2 a{
     margin-right: 10px;
     margin-left: 10px;
+    font-size: smaller;
+}
+.NavSup3{
+    justify-content: center;
+    width: 100%;
 }
 .NavSup3 li {
     display: flex;
     width: 100%;
+    padding: 0 100px;
 }
 .NavSup3 li div a{
     margin-top: 19px;
     margin-right: 10px;
     margin-left: 10px;
+    font-size: x-small;
 }
 .NavSup3 li .ernavPrimeros {
     display: flex;
@@ -71,4 +83,37 @@
     flex-wrap: wrap;
     justify-content: right;
     width: 100%;
+
+}
+aside{
+    background-color: grey;
+    width: 130px;
+}
+aside button{
+    width: 40px;
+    font-size: x-small;
+}
+aside p{
+    font-size: x-small;
+    margin-right: 10px;
+}
+aside div label{
+    font-size: x-small;
+}
+.titulo-boton-aside{
+    background-color: grey;
+    display: flex;
+    margin-bottom: 10px;
+}
+.Formas-de-pago{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+.Formas-de-pago div{
+    display: flex;
+    flex-direction: row;}
+.FormasPago{
+    display: flex;
+    flex-direction: column;
 }
