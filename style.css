@@ -117,3 +117,8 @@ aside div label{
     display: flex;
     flex-direction: column;
 }
+img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
