@@ -153,7 +153,7 @@ aside div label{
 .Grillaprincipal{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
+    place-items: center;
     grid-template-areas:
                 "1 2 3 4 5";
 }
@@ -201,4 +201,28 @@ aside div label{
     font-size: x-small;
     color: white;
     background-color: violet;
+}
+.grillasegunda{
+    display: grid;
+        margin-left: 100px;
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    grid-template-areas:
+                "1 2 3";
+}
+.grillasegunda article{
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+footer{
+position: fixed;
+  bottom: 0;
+  width: 100%;
+background-color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
 }
