@@ -88,6 +88,7 @@
 aside{
     background-color: grey;
     width: 130px;
+    flex-shrink: 0;
 }
 aside button{
     width: 40px;
@@ -104,11 +105,15 @@ aside div label{
     background-color: grey;
     display: flex;
     margin-bottom: 10px;
+
+    border-right: solid black 0.5px;
 }
 .Formas-de-pago{
     background-color: grey;
     display: flex;
     flex-direction: column;
+
+    border-right: solid black 0.5px;
 }
 .Formas-de-pago div{
     display: flex;
@@ -117,8 +122,47 @@ aside div label{
     display: flex;
     flex-direction: column;
 }
-img{
+.mismolevel img{
+    width: 150%;
+    margin-left: 40px;
+}
+.mismolevel{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    align-items: flex-start;
+
+    background-color: grey;
+}
+.Grillaprimera{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    margin-left: 100px;
+    flex-direction: column;
+}
+.Grillaprincipal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas:
+                "1 2 3 4 5";
+}
+.Grillaprincipal article{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: beige;
+}
+.primerarticulo{
+    grid-area: "1";
+}
+.segundorticulo{
+    grid-area: "2";
+}
+.terceroarticulo{
+    grid-area: "3";
+}
+.cuartoarticulo{
+    grid-area: "4";
+}
+.quntoarticulo{
+    grid-area: "5";
 }
