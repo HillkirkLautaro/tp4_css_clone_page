@@ -52,7 +52,7 @@
     <div class="mismolevel">
         <aside>
             <div class="titulo-boton-aside">
-                <p>Filtros aplicados</p>
+                <p class="FiltrosAside">Filtros aplicados</p>
                 <button>Limpiar</button>
             </div>
             <div class="Formas-de-pago">
@@ -72,6 +72,20 @@
                 <div>
                     <input type="checkbox" id="cuotas-12" name="cuotas-12">
                     <label for="cuotas-12">12 cuotas sin interés</label>
+                </div>
+            </div>
+            <div>
+                <p>Precio</p>
+                <li class="PrecioAside">
+                    <a href="#">Menos de X precio</a>
+                    <a href="#">Entre X precio y X Precio</a>
+                    <a href="#"> Entre X precio o mas</a>
+                </li>    
+                <div class="numeritos">
+                    <input type="number" id="cantidad" placeholder="min" name="cantidad" value="1" min="1" max="10" step="1">
+                    <p>---</p>
+                    <input type="number" id="cantidad2" placeholder="max" name="cantidad" value="1" min="1" max="10" step="1">
+                    <button>></button>
                 </div>
             </div>
         </aside>

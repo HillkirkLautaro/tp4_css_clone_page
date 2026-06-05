@@ -3,8 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-.NavegacionSuperior {
+body{
     background-color: grey;
+}
+.NavegacionSuperior {
     color: rgb(62, 62, 62);
     text-decoration: none;
     display:flex;
@@ -13,7 +15,6 @@
     
 }
 .NavegacionSuperior a {
-    background-color: grey;
     color: rgb(62, 62, 62);
     text-decoration: none;
     margin-left: 10px;
@@ -38,6 +39,9 @@
     flex-wrap: wrap;
 }
 .NavSup2 li{
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -60,6 +64,8 @@
 .NavSup3{
     justify-content: center;
     width: 100%;
+    background-color: white;
+    margin-bottom: 5px;
 }
 .NavSup3 li {
     display: flex;
@@ -96,7 +102,11 @@ aside button{
 }
 aside p{
     font-size: x-small;
+    font-weight: bold;
     margin-right: 10px;
+}
+.FiltrosAside{
+    color: rgb(56, 54, 54);
 }
 aside div label{
     font-size: x-small;
@@ -138,6 +148,7 @@ aside div label{
     background-color: blueviolet;
     margin-left: 100px;
     flex-direction: column;
+    border-radius: 5px;
 }
 .Grillaprincipal{
     display: grid;
@@ -150,6 +161,7 @@ aside div label{
     margin-left: 20px;
     margin-right: 20px;
     background-color: beige;
+    border-radius: 5px;
 }
 .primerarticulo{
     grid-area: "1";
@@ -165,4 +177,28 @@ aside div label{
 }
 .quntoarticulo{
     grid-area: "5";
+}
+.numeritos{
+    display: flex;
+}
+.numeritos input{
+    width: 40px;
+    margin-right: 10px;
+}
+.numeritos #cantidad{
+    margin-left: 10px;
+}
+.PrecioAside a{
+    display: flex;
+    flex-direction: column;
+    font-size: x-small;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+.numeritos button{
+    width: 40px;
+    font-size: x-small;
+    color: white;
+    background-color: violet;
 }
